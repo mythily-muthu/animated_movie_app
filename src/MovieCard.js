@@ -1,11 +1,11 @@
 import React from 'react'
 
 
-const MovieCard = ({ movie }) => {
+const MovieCard = ({ movies }) => {
     return (
         <div>
-            <h3>{movie.title}</h3>
-            <img src={'https://image.tmdb.org/t/p/w500' + movie.backdrop_path}
+            <h3>{movies.title}</h3>
+            <img src={'https://image.tmdb.org/t/p/w500' + movies.backdrop_path}
                 alt='' />
 
         </div>
@@ -13,4 +13,4 @@ const MovieCard = ({ movie }) => {
     )
 }
 
-export default MovieCard
+export default MovieCard 
