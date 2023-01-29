@@ -20,7 +20,7 @@ const FilterCategory = ({ activeGenre, setActiveGenre, movies, setFiltered }) =>
 
     return (
         <div className='filter-container'>
-            <button className={activeGenre === 0 ? "active" : ""} onClick={() => setActiveGenre(0)}>All</button>
+            <button className={activeGenre === 0 ? "active" : ""} onClick={() => setActiveGenre(0)}>All movie</button>
             <button className={activeGenre === 27 ? "active" : ""} onClick={() => setActiveGenre(27)}>Horror</button>
             <button className={activeGenre === 16 ? "active" : ""} onClick={() => setActiveGenre(16)}>Animation</button>
             <button className={activeGenre === 80 ? "active" : ""} onClick={() => setActiveGenre(80)}>Crime</button>
